@@ -1,0 +1,10 @@
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\bin\Debug\Aria.exe.config
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\bin\Debug\Aria.exe
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\bin\Debug\Aria.pdb
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\obj\Debug\Aria.csprojResolveAssemblyReference.cache
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\obj\Debug\Aria.Form1.resources
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\obj\Debug\Aria.Properties.Resources.resources
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\obj\Debug\Aria.csproj.GenerateResource.Cache
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\obj\Debug\Aria.exe
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\obj\Debug\Aria.pdb
+c:\users\icefireburn1\documents\visual studio 2017\Projects\Aria\Aria\bin\Debug\libvideo.dll
