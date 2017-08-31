@@ -33,6 +33,7 @@
             this.convertMp3 = new System.Windows.Forms.CheckBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.videoTitle = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // dwnld_Button
@@ -53,15 +54,17 @@
             this.urlBox.TabIndex = 1;
             this.urlBox.WordWrap = false;
             this.urlBox.Click += new System.EventHandler(this.urlBox_Click);
+            this.urlBox.TextChanged += new System.EventHandler(this.urlBox_TextChanged);
             // 
             // convertMp3
             // 
             this.convertMp3.AutoSize = true;
-            this.convertMp3.Location = new System.Drawing.Point(176, 177);
+            this.convertMp3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.convertMp3.Location = new System.Drawing.Point(231, 201);
             this.convertMp3.Name = "convertMp3";
-            this.convertMp3.Size = new System.Drawing.Size(49, 17);
+            this.convertMp3.Size = new System.Drawing.Size(43, 17);
             this.convertMp3.TabIndex = 2;
-            this.convertMp3.Text = ",mp3";
+            this.convertMp3.Text = ".flac";
             this.convertMp3.UseVisualStyleBackColor = true;
             // 
             // progressBar1
@@ -76,11 +79,22 @@
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
             // 
+            // videoTitle
+            // 
+            this.videoTitle.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.videoTitle.Location = new System.Drawing.Point(56, 23);
+            this.videoTitle.Multiline = true;
+            this.videoTitle.Name = "videoTitle";
+            this.videoTitle.Size = new System.Drawing.Size(169, 50);
+            this.videoTitle.TabIndex = 5;
+            this.videoTitle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.videoTitle);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.convertMp3);
             this.Controls.Add(this.urlBox);
@@ -99,6 +113,7 @@
         private System.Windows.Forms.CheckBox convertMp3;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.TextBox videoTitle;
     }
 }
 
